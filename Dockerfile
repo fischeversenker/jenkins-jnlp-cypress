@@ -41,7 +41,6 @@ ENV npm_config_loglevel warn
 # tool version
 RUN node -v
 RUN npm -v
-RUN yarn -v
 RUN google-chrome --version
 RUN zip --version
 RUN git --version
